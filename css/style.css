@@ -488,6 +488,9 @@ input[type=submit]:hover {
 
   .avatar {
    margin-top: -4rem;
+   width: 70%;
+   margin: auto;
+   padding-bottom: 3rem;
   }
 
   .btn {
@@ -515,7 +518,7 @@ input[type=submit]:hover {
   }
 
   .skill-section {
-    padding: 3rem 15rem .3rem 15rem;
+    padding: 3rem 15rem 0 15rem;
     margin-bottom: 3rem;
   }
 
@@ -533,6 +536,10 @@ input[type=submit]:hover {
 
   .topic h3 {
     padding: 2rem;
+  }
+
+  .projects {
+    margin-bottom: 3rem;
   }
 
   .card {
@@ -572,12 +579,13 @@ input[type=submit]:hover {
     width: 84%;
   }
 
-
-
-
-
-
-  
-
+  .social-icons i{
+    width: 10%;
+    padding: 5%;
+  }
+ 
+  .footer .par {
+    width: 95%;
+  }
 
 }
