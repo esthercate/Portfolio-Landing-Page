@@ -13,6 +13,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 p {
   font-size: 15px;
 }
@@ -103,7 +107,7 @@ a {
 /*About me section styles*/
 .about-me {
   background-color: var(--dark-blue);
-  margin: .2rem 0 2rem 0;
+  margin: 6rem 0 2rem 0;
   padding: 1rem;
 }
 
@@ -478,25 +482,27 @@ input[type=submit]:hover {
 
   .abt {
     background-color: var(--navy-blue);
-    margin-top: .5rem;
+    margin-top: 6rem;
   }
 
   .about-me {
     width: 50%;
     margin: auto;
+    padding: 4rem;
   }
 
   .avatar {
-   margin-top: -4rem;
    width: 70%;
    margin: auto;
    padding-bottom: 3rem;
+   margin-top: -3rem;
   }
 
   .btn {
     width: 50%;
     margin: auto;
     margin-bottom: 3rem;
+    margin-top: 2rem;
   }
 
   .background .icon, h3 {
