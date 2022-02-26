@@ -91,6 +91,10 @@ a {
   font-size: 2rem;
 }
 
+.heading strong {
+  display: block;
+}
+
 .profession {
   padding-top: 2rem;
   line-height: 2.5rem;
@@ -392,4 +396,109 @@ input[type=submit]:hover {
 
 .back-icon a i:hover {
   color: var(--green);
+}
+
+/*Desktop styles*/
+@media (min-width: 700px) {
+  .container {
+    width: 100%;
+    justify-content: center;
+  }
+
+
+  .navbar {
+    padding: 0 4rem;
+  }
+
+  .nav {
+    display: inline;
+  }
+
+  .nav ul {
+    display: flex;
+  }
+
+  .nav ul li{
+    list-style-type: none;
+    padding: 1rem;
+  }
+
+  .nav ul li a {
+    color:var(--white);
+    opacity: 70%;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: lighter;
+  }
+
+  .nav ul li a:hover {
+    color: var(--green);
+  }
+
+  .mobile-icon {
+    display: none;
+  }
+
+  .background {
+    display: flex;
+  }
+
+  .projects {
+    display: flex;
+  }
+
+  .hero {
+    height: 90%;
+    background: url("../images/bg-coding-dt.jpg"),linear-gradient(rgba(51, 59, 80,0.99),rgba(51, 59, 80,0.99));
+    background-blend-mode: overlay;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .hero .text {
+    text-align: left;
+    margin-left: -20rem;
+    line-height: 4rem;
+    
+  }
+
+  .heading h1 {
+    font-size: 3rem;
+  }
+
+  .heading strong {
+    display: block;
+  }
+
+  .hero h1 span {
+    font-size: 3.5rem;
+  }
+
+  .abt {
+    background-color: var(--navy-blue);
+    margin-top: .5rem;
+  }
+
+  .about-me {
+    width: 50%;
+    margin: auto;
+  }
+
+  .avatar {
+   margin-top: -4rem;
+  }
+
+  .btn {
+    width: 50%;
+    margin: auto;
+  }
+
+  .background {
+    
+  }
+
+
+
+
 }
