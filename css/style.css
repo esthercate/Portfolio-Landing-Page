@@ -39,7 +39,6 @@ body {
   height: 100vh;
   width: 375px;
   text-align: center;
-  padding: .5rem;
 }
 
 /*Navigation bar styles*/
@@ -326,8 +325,7 @@ input {
 }
 
 input[type=text] {
-  width: 40%;
-  
+  width: 40%; 
 }
 
 input[type=email] {
@@ -386,10 +384,7 @@ input[type=submit]:hover {
 .footer p {
   color: var(--white);
   opacity: 70%;
-}
-
-.footer p span {
-  color: var(--green);
+  font-size: 16px;
 }
 
 .back-icon a {
@@ -483,7 +478,7 @@ input[type=submit]:hover {
 
   .abt {
     background-color: var(--navy-blue);
-    margin-top: 6rem;
+    margin-top: 5.3rem;
   }
 
   .about-me {
