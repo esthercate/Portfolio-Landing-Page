@@ -158,7 +158,6 @@ a {
   padding-bottom: 2rem;
 }
 
-
 .background i {
   font-size: 3rem;
   color: var(--navy-blue);
@@ -221,6 +220,7 @@ a {
 .css {
   width: 85%;
 }
+
 .git {
   width: 65%;
 }
@@ -228,6 +228,7 @@ a {
 .bootstrap {
   width: 50%;
 }
+
 .figma {
   width: 45%;
 }
@@ -298,6 +299,7 @@ ol li {
   background-color: var(--dark-blue);
   padding: 1rem 0;
 }
+
 .contacts p {
   color: var(--white);
   opacity: 70%;
@@ -403,7 +405,7 @@ input[type=submit]:hover {
 }
 
 /*Desktop styles*/
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .container {
     width: 100%;
     justify-content: center;
@@ -464,8 +466,7 @@ input[type=submit]:hover {
   .hero .text {
     text-align: left;
     margin-left: -20rem;
-    line-height: 4rem;
-    
+    line-height: 4rem; 
   }
 
   .heading h1 {
@@ -492,10 +493,10 @@ input[type=submit]:hover {
   }
 
   .avatar {
-   width: 70%;
-   margin: auto;
-   padding-bottom: 3rem;
-   margin-top: -3rem;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 3rem;
+    margin-top: -3rem;
   }
 
   .btn {
@@ -566,7 +567,6 @@ input[type=submit]:hover {
     width: 40%;
     margin: auto;
     padding: 1rem;
-    
   }
 
   input[type=text] {
@@ -593,5 +593,4 @@ input[type=submit]:hover {
   .footer .par {
     width: 95%;
   }
-
 }
