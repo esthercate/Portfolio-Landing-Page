@@ -11,7 +11,7 @@ Font awesome
 This is a web-based project that does not require any setup or installation. You only need to open the website and navigate through to view my projects and skills. 
 
 ## Links
-Live Site URL: [Live site URL](https://esthercate.github.io/Portfolio-Landing-page/)
+Live Site URL: [Live site URL](https://esthercate.github.io/Portfolio-Landing-Page/)
 
 ## Copyright and License
 Distributed under the MIT License. See LICENSE.txt for more information.
